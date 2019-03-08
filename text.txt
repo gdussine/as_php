@@ -1,3 +1,2 @@
 J'aime bien le PHP ...
 .. mais je préfére le Java !
-Le C c'est bien mais le Python c'est mieux..
