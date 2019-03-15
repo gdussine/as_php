@@ -2,4 +2,5 @@ Anglais
 Francais
 Allemand
 Espagole
+Chinois
 
