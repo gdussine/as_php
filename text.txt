@@ -1,5 +1,5 @@
 J'aime bien le PHP ...
 .. mais je préfére le Java !
-
+Ceci est le meilleur conflit
 Bouuuuh c'est nuuuuul
 
