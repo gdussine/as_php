@@ -1,3 +1,4 @@
 J'aime bien le PHP ...
 .. mais je préfére le Java !
-Ceci est un conflit
+Ceci est le meilleur conflit
+
