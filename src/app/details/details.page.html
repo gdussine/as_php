@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col  size="12">
+        <h1 id=nomEquipe>{{this.data['nom']}}</h1>
+
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size-sm="6" size-xs="12">
+        <ion-img src="{{this.data['src']}}"></ion-img>
+      </ion-col>
+      <ion-col size-sm="6" size-xs="12">
+      </ion-col>
+    </ion-row>
+    <ion-row id="donnee">
+      <ion-col id="lblPoint" size-sm="3" size-xs="6">
+        Point :
+      </ion-col>
+      <ion-col id="point" size-sm="3" size-xs="6">
+        {{this.data['pts']}} pts
+      </ion-col>
+      <ion-col id="lblGolaverage" size-sm="3" size-xs="6">
+        Golaverage :
+      </ion-col>
+      <ion-col id="golaverage" size-sm="3" size-xs="6">
+        0 pts
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+
+
+  <!--<ion-card>-->
+    <!--<ion-card-header>-->
+      <!--<ion-card-subtitle>Detail du club</ion-card-subtitle>-->
+      <!--<ion-card-title>Paris Saint Germain</ion-card-title>-->
+    <!--</ion-card-header>-->
+
+    <!--<ion-card-content>-->
+      <!--<div class="left"><ion-img slot="end" [src]="'../../assets/img/PSG.jpg'" ></ion-img></div>-->
+      <!--<div class="right">-->
+        <!--Le Paris Saint-Germain Football Club, abrégé en Paris Saint-Germain FC, couramment appelé Paris Saint-Germain ou PSG, est un club de football français faisant partie du club omnisports du même nom, basé à Saint-Germain-en-Laye et à Paris.-->
+
+        <!--La date de fondation du club est discutable, celle de 1970 régulièrement avancée correspondant en réalité davantage au changement de nom du Stade saint-germanois, fondé en 1904, en Paris Saint-Germain Football Club à la suite du rapprochement avec l'association Paris Football Club, groupe d'investissement créé en 1969 dans le but de reformer une équipe professionnelle dans la capitale, après la chute sportive et financière du Racing Club de France et du Stade français à la fin des années 1960.-->
+
+        <!--Présent en première division du Championnat de France depuis 1974, le Paris Saint-Germain est le club y évoluant depuis le plus longtemps sans discontinuité. En 2015, le club parisien réalise le premier « quadruplé » en remportant le championnat de Ligue 1, la Coupe de France, la Coupe de la Ligue et le Trophée des champions. Cette performance est rééditée en 2016 et 2018. Le club compte à son palmarès huit titres de champion de France, douze Coupes de France et huit Coupes de la Ligue. Le club remporte la Coupe d'Europe des vainqueurs de coupe en 1996.-->
+
+        <!--Le Paris Saint-Germain a pour stade le Parc des Princes, depuis juillet 1974, et s'entraîne au Centre d'entraînement Ooredoo (ex-« Camp des Loges ») à Saint-Germain-en-Laye, un lieu hérité du Stade saint-germanois. Dirigé dans ses premières années par des personnalités comme Daniel Hechter puis Francis Borelli, le club est racheté en 1991 par le diffuseur du championnat à la télévision, Canal+, qui mène le club parisien à un grand succès pendant ses premières années. Le PSG est ensuite vendu au fonds d'investissement américain Colony Capital en 2006, qui ne remporte pas de titre majeur hormis deux coupes nationales, puis cinq ans plus tard au fonds souverain qatarien Qatar Investment Authority (QIA). Les moyens financiers très importants qui sont injectés dans les caisses du club depuis 2011 lui ont permis de remporter dix-huit titres sur la scène nationale. L'ex-tennisman et homme d'affaires qatarien Nasser Al-Khelaïfi en est le président-directeur général depuis 2011 et l'Allemand Thomas Tuchel en est l'entraîneur depuis 2018.-->
+
+        <!--Il est devenu lors de la saison 2018/2019 le premier club français à disputer 45 saisons d'affilée au sein de l'élite, détrônant le Football Club de Nantes qui en avait disputé 44 de 1963 à 2007. .-->
+      <!--</div>-->
+<!--</ion-card-content>-->
+  <!--</ion-card>-->
+
+
+
+
+</ion-content>
